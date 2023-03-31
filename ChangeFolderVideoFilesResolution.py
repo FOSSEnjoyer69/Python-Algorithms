@@ -3,7 +3,7 @@ from moviepy.editor import *
 
 resolution = 1920, 1080
 
-sourceFolder = "E:\Shows\Wednesday (2022)\Episode 4 Woe What a Night\Clips"
+sourceFolder = "source folder path"
 targetFolder = f"{sourceFolder}/{resolution[0]} x {resolution[1]}"
 
 # Cache the files to avoid regenerating them on subsequent runs
